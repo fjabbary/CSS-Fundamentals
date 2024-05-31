@@ -1,0 +1,73 @@
+.recipe-title {
+  font-size: 2.5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.recipe-title a {
+  text-decoration: none;
+  color: orangered;
+  padding: 20px;
+}
+
+.ingredients-title,
+.ingredients-title + ul li {
+  color: blueviolet;
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#steps {
+  font-size: 1.25rem;
+}
+
+header {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: orangered;
+  color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.recipe {
+  border-image: linear-gradient(45deg, orangered, blueviolet) 1;
+  border-width: 4px;
+  border-style: solid;
+  margin: 30px 0;
+  padding: 20px;
+}
+
+.recipe-title a:hover {
+  background: linear-gradient(45deg, orangered, blueviolet);
+  color: #fff;
+}
+
+/* =========== Task 2 =========== */
+
+.btn {
+  text-decoration: none;
+  background-color: orangered;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 3px;
+  display: inline-block;
+  transition: all 0.2s ease-in;
+  margin-left: 100px;
+}
+
+.btn:hover {
+  background-color: rgb(196, 53, 1);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  transform: translateY(-3px);
+}
+
+.btn:active {
+  transform: translateY(2px);
+  box-shadow: unset;
+}
+
